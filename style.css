@@ -115,7 +115,7 @@ select {
 .grande2 {
     
    
-    background: #f9f6f1;
+    
     display: flex;
     align-items: center;
     margin-left: 10%;
@@ -123,10 +123,10 @@ select {
 }
 
 
-.gran {
-    display: flex;
-    
-    
+.sect2 {
+    background-color: #f9f6f1;
+    width: 100%;
+ 
 }
 .form-1 {
     display: flex;
@@ -143,7 +143,7 @@ select {
 
 .bt2 {
     position: relative;
-   
+    background: #e9e0cf;
     padding: 10px 50px ;
    border: 1px solid black;
 }
@@ -151,7 +151,7 @@ select {
 
 .bt3 {
     position: relative;
-   
+    background: #6d7f52;
     padding: 10px 50px ;
    border: 1px solid black;
 
@@ -215,4 +215,117 @@ select {
 .right2 {
     margin-left: 50px;
 }
-gi
+
+/* parties3 */
+
+
+
+
+
+.grande3 {
+    display: flex;
+    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.regi3 {
+    
+    font-family: "Muli-SemiBold";
+    font-size: 22px;
+    color: #453e79;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 5px 15px;
+    display: inline-block;
+    border: 1px solid #dad8e4;
+    margin-bottom: 88px
+}
+
+
+
+.ple3 {
+ 
+    font-family: "Muli-SemiBold";
+    font-size: 20px;
+    color: #6d7f52;
+    text-align: center;
+    margin-bottom: 18px;
+}   
+
+.cercle3 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+.form-header3 {
+    text-align: center;
+   margin-bottom: 100px;
+}
+
+
+.form-2 {
+    padding-left: 150px;
+    margin-top: 50px;
+   
+    
+}
+
+.right3 {
+    margin-left: 50px;
+}
+
+
+.for2 {
+    height: 99px;
+    border: none;
+    border-bottom: 3px solid #e6e6e6;
+    width: 100%;
+    color: #999;
+    padding: 8px 0;
+}
+
+
+.bt4 {
+    position: relative;
+   
+    background: #e9e0cf;
+    padding: 10px 50px ;
+   border: 1px solid black;
+}
+
+
+.bt5 {
+    position: relative;
+    background: #6d7f52;
+    padding: 10px 50px ;
+   border: 1px solid black;
+
+}
+
+
+
+
+/* partie application */
+
+
+
+
+.container {
+  display: none;  
+}
+
+.sect2{
+    display: none;     
+}
+
+.sect3 {
+    display: none;    
+} 
+
+
+/* partie responssive */
