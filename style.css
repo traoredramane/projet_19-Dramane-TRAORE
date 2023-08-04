@@ -44,20 +44,12 @@ select {
 
 .bt1 {
     position: relative;
-    margin-left: 500px;
+    margin-left: 300px;
     padding: 10px 50px ;
    border: 1px solid black;
    width: 30%;
    
-   
 }
-
-
-.right {
-    
-   
-}
-
 
 .form1 {
    margin-bottom: 18px;
@@ -92,10 +84,7 @@ select {
     text-align: center;
     margin-bottom: 26px;
 }   
-    
-.choose1 {
-   
-}
+ 
 
 
 .form {
@@ -114,17 +103,15 @@ select {
 
 .grande2 {
     
-   
-    
     display: flex;
-    align-items: center;
+   
     margin-left: 10%;
     margin-right: 10%;
 }
 
 
 .sect2 {
-    background-color: #f9f6f1;
+  
     width: 100%;
  
 }
@@ -137,9 +124,6 @@ select {
 .cercle2 {
     display: flex;
 }
-
-
-
 
 .bt2 {
     position: relative;
@@ -166,7 +150,6 @@ select {
     padding: 10px;
     
 }
-
 
 
 .regi2 {
@@ -199,8 +182,6 @@ select {
     justify-content: center;
 }
 
-
-
 .bt-n {
     padding-left: 150px;
     margin-top: 70px;
@@ -219,13 +200,10 @@ select {
 /* parties3 */
 
 
-
-
-
 .grande3 {
     display: flex;
     
-    align-items: center;
+   
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -329,3 +307,122 @@ select {
 
 
 /* partie responssive */
+
+@media screen and (max-width: 900px) {
+    .grande {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        
+         }
+         .form {
+            flex-direction: column; 
+         }
+         .choose1 {
+              
+         }
+         
+         .grande3 {
+            flex-direction: column;
+         }
+         
+         
+         .form-1 {
+             flex-direction: column;
+         }
+         
+         /* page 2 */
+         
+         .grande2 {
+            flex-direction: column;
+             margin-left: 0;
+             margin-right: 0;
+         }
+         .right2 {
+             margin-left: 0;
+         }
+         .tro {
+             width: 70%;
+             
+         }
+         
+         .bt-n {
+            flex-direction: column;
+            margin-left: 10px;
+            padding: 5px 30px;
+        }
+         
+    .bt2 {
+        font-size: 15px;
+     }
+     
+     
+     .bt3 {
+         font-size: 20px;
+      }
+         
+}
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    
+    .choose1 {
+        width: 250px;
+        
+    }
+    .regi {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    
+    .regi2 {
+        letter-spacing: 2px;
+    }
+    
+    
+    .choose2 {
+        width: 250px;
+    }
+    
+    .tro {
+        width: %;
+    }
+    
+    
+    .bt2 {
+        font-size: 15px;
+     }
+     
+     
+     .bt3 {
+         font-size: 20px;
+      }
+}
+
+
+@media screen and (max-width: 430px) {
+    .bt1 {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 516px) {
+    .bt-n {
+        flex-direction: column;
+        margin-left: 10px;
+        padding: 5px 30px;
+    }
+    
+    .bt2 {
+       font-size: 15px;
+    }
+    
+    
+    .bt3 {
+        font-size: 20px;
+     }
+}
