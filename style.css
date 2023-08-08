@@ -360,6 +360,13 @@ select {
      .bt3 {
          font-size: 20px;
       }
+     .grande3 {
+         margin-left: 0px;
+         margin-right: 0px;
+     }
+     .right3 {
+         margin-left: 0px;
+     }
          
 }
 
@@ -383,6 +390,11 @@ select {
     }
     
     
+    .regi3 {
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    
     .choose2 {
         width: 250px;
     }
@@ -400,7 +412,20 @@ select {
      .bt3 {
          font-size: 20px;
       }
+     
+     .choose3 {
+         width: 250px;
+     }
+     .form-2 {
+         padding-left: 30px;
+     }
+     
+     .for2 {
+         padding: 0px;
+     }
+     
 }
+
 
 
 @media screen and (max-width: 430px) {
@@ -425,4 +450,13 @@ select {
     .bt3 {
         font-size: 20px;
      }
+}
+
+@media screen and (max-width: 492px) {
+    .bt4 {
+        font-size: 20px;
+    }
+    .bt5 {
+        font-size: 27px;
+    }
 }
