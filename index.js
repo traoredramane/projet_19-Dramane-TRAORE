@@ -101,5 +101,3 @@ bt4.addEventListener("click", () => {
     sect2.style.display = "block";
 })
  
- 
- 
